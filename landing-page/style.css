@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 
-#home, #sobre{
-    height: 100vh;
+#home, #sobre, #produtos, #contato{
+    height: auto;
     width: 100%;
+}
+
+#home{
+    height: 100vh;
 }
 
 /* Nav */
@@ -93,14 +98,95 @@ a{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% auto;
+    padding: 150px 0;
 }
 
 .container-sobre{
-    background-color: blanchedalmond;
-    width: 800px;
-    height: 500px;
-    justify-content: center;
-    place-content: center;
+    background-color: rgb(255, 235, 205);
+    width: 900px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 8px;
+    padding: 50px;
 }
 
+.sobre-h1, .prod-h1, .contato-h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
 
+.sobre-texto-container{
+    margin-left: 40px;
+}
+
+.sobre-texto{
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    text-indent: 1.25cm;
+    margin-bottom: 5px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+/* PRODUTOS */
+
+#produtos{
+    padding: 150px 0;
+    background-color: #ffffff82;
+}
+
+.prod-container{
+    background-color: blanchedalmond;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+#contato{
+    padding: 150px 0;
+    background-color: #f4f4f4;
+}
+
+.contato-container{
+        background-color: #edddc6;
+        width: 900px;
+        height: 500px;
+        margin: auto;
+        border-radius: 8px;
+        padding: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+input{
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 5px;
+    background-color: rgb(236, 230, 222);
+    border: 0;
+}
+
+.form-textarea{
+    width: 230px;
+    height: 150px;
+    margin: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(236, 230, 222);
+    border: 0;
+    resize: none;
+}
+
+.form-enviar, .form-cancelar{
+    display: inline-block;
+    width: 100px;
+    cursor: pointer;
+}
