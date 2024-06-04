@@ -34,3 +34,17 @@
         left: 0;
     }
 }
+
+
+@media (max-width:500px){
+
+}
+
+
+@media (min-width:500px) and (max-width:880px) {
+
+    .contato-container, .prod-container, .container-sobre{
+        width: 500px;
+    }
+}
+
