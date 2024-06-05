@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsividade.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 </head>
 <body>
         <header>
@@ -60,17 +63,23 @@
                 <h1 class="prod-h1">Nossos produtos</h1>
 
                 <div class="produtos">
-                    <img data-name="" data-price="" src="" alt="">
+                    <img data-name="Creme corporal Tododia" data-price="68.90" src="img/produtos-slide.png" alt="" class="fotos-slide">
                     
-                    <img data-name="" data-price="" src="" alt="">
+                    <img data-name="produto1" data-price="20.90" src="img/produtos-slide2.png" alt="" class="fotos-slide">
                     
-                    <img data-name="" data-price="" src="" alt="">
+                    <img data-name="produto2" data-price="20.90" src="img/produtos-slide3.png" alt="" class="fotos-slide">
                     
-                    <img data-name="" data-price="" src="" alt="">
+                    <img data-name="Creme desodorante Tododia" data-price="21.90" src="img/produtos-slide4.png" alt="" class="fotos-slide">
 
-                    <img data-name="" data-price="" src="" alt="">
+                    <img data-name=" produto3" data-price="20.90" src="img/produtos-slide5.png" alt="" class="fotos-slide">
 
                 </div>
+
+                <div id="arrow-prev" class="flecha"> anterior </div>
+                <div id="prod-name" class="descricao"></div>
+                <div id="arrow-next" class="flecha">proximo</div>
+
+                <div id="prod-price"></div>
             </div>
         </section>
         <section id="contato">
@@ -96,7 +105,7 @@
         </section>
     
         
-
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

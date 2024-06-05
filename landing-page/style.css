@@ -218,3 +218,30 @@ a{
     color: #000000;
     
 }
+
+
+
+/* Slide */
+
+.fotos-slide{
+    height: 150px;
+}
+
+.flecha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos .fotos-slide{
+    transform: scale(0.6);
+    transition: 0.3s;
+    -moz-transition: 0.3;
+    -webkit-transition: 0.3;
+    -o-transition: 0.3;
+    outline: none;
+}
+
+
+.produtos .fotos-slide.slick-center{
+    transform: scale(1);
+}
