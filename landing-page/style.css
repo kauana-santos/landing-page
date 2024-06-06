@@ -45,7 +45,7 @@ a{
     align-items: center;
     padding: 0 60px;
     position: fixed;
-
+    box-shadow: 1px 1px 5px #a8a8a8;
 }
 
 .nav-menu{
@@ -91,7 +91,6 @@ a{
 }
 
 .div-logo{
-    /* background-color: #6969690a; */
     width: fit-content;
     position: absolute;
     top: 50%;
@@ -114,6 +113,7 @@ a{
 
 .container-sobre{
     background-color: rgb(255, 235, 205);
+    box-shadow: 1px 1px 5px #c4c4c4;
     width: 900px;
     height: fit-content;
     margin: auto;
@@ -149,12 +149,42 @@ a{
 
 .prod-container{
     background-color: blanchedalmond;
+    box-shadow: 1px 1px 5px #c4c4c4;
     width: 900px;
     height: 500px;
     margin: auto;
     border-radius: 8px;
     padding: 50px;
 }
+
+.prod-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.flecha{
+    margin: 0 90px;
+    cursor: pointer;
+}
+
+.descricao{
+    margin: 0 auto;
+}
+
+#prod-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/* CONTATO */
 
 #contato{
     padding: 150px 0;
@@ -164,6 +194,7 @@ a{
 .contato-container{
    
     background-color: #edddc6;
+    box-shadow: 1px 1px 5px #c4c4c4;
     width: 900px;
     height: 500px;
     margin: auto;
@@ -225,12 +256,9 @@ a{
 
 .fotos-slide{
     height: 150px;
+    
 }
 
-.flecha{
-    display: flex;
-    justify-content: space-between;
-}
 
 .produtos .fotos-slide{
     transform: scale(0.6);
